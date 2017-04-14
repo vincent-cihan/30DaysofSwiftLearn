@@ -9,3 +9,7 @@ Day1 - StopWatch
 Day2 - CustomFont
 
 ![CustomFont](https://github.com/vincent-cihan/30DaysofSwiftLearn/blob/master/Day2%20-%20CustormFont/CustomFont.gif)
+
+Day3 - PlayLocalVideo
+
+![PlayLocalVideo](https://github.com/vincent-cihan/30DaysofSwiftLearn/blob/master/Day3%20-%20PlayLocalVideo/PlayLocalVideo.gif)
