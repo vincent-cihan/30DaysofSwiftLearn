@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CameraViewController" customModule="Day4___Snapchat_Menu" customModuleProvider="target">
+            <connections>
+                <outlet property="caneraView" destination="WBU-sT-KfV" id="Fdw-yg-IBF"/>
+                <outlet property="tempImageView" destination="Ukm-RN-Tfd" id="8YI-eY-blh"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WBU-sT-KfV">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ukm-RN-Tfd">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Ukm-RN-Tfd" secondAttribute="trailing" id="4Ym-yM-vWA"/>
+                <constraint firstItem="WBU-sT-KfV" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="5bU-Pd-4p8"/>
+                <constraint firstItem="WBU-sT-KfV" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="7jp-jd-Qdb"/>
+                <constraint firstAttribute="trailing" secondItem="WBU-sT-KfV" secondAttribute="trailing" id="HgS-rh-MHv"/>
+                <constraint firstItem="Ukm-RN-Tfd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="KKx-WW-Olc"/>
+                <constraint firstAttribute="bottom" secondItem="WBU-sT-KfV" secondAttribute="bottom" id="VNu-8e-GbE"/>
+                <constraint firstItem="Ukm-RN-Tfd" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="ekU-VY-V0J"/>
+                <constraint firstAttribute="bottom" secondItem="Ukm-RN-Tfd" secondAttribute="bottom" id="xC0-nt-yTT"/>
+            </constraints>
+            <point key="canvasLocation" x="-87" y="15"/>
+        </view>
+    </objects>
+</document>
