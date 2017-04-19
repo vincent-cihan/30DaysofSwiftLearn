@@ -21,3 +21,7 @@ Day5 - CarouselEffect
 Day6 - Where
 
 ![Where](https://github.com/vincent-cihan/30DaysofSwiftLearn/blob/master/Day6-Where/Where.gif)
+
+Day7 - PullToRefresh
+
+![PullToRefresh](https://github.com/vincent-cihan/30DaysofSwiftLearn/blob/master/Day7%20-%20PullToRefresh/PullToRefresh.gif)
