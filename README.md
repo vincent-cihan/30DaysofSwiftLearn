@@ -17,3 +17,7 @@ Day3 - PlayLocalVideo
 Day5 - CarouselEffect
 
 ![CarouselEffect](https://github.com/vincent-cihan/30DaysofSwiftLearn/blob/master/Day5-CarouselEffect/CarouselEffect.gif)
+
+Day6 - Where
+
+![Where](https://github.com/vincent-cihan/30DaysofSwiftLearn/blob/master/Day6-Where/Where.gif)
