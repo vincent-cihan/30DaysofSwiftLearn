@@ -13,3 +13,7 @@ Day2 - CustomFont
 Day3 - PlayLocalVideo
 
 ![PlayLocalVideo](https://github.com/vincent-cihan/30DaysofSwiftLearn/blob/master/Day3%20-%20PlayLocalVideo/PlayLocalVideo.gif)
+
+Day5 - CarouselEffect
+
+![CarouselEffect](https://github.com/vincent-cihan/30DaysofSwiftLearn/blob/master/Day5-CarouselEffect/CarouselEffect.gif)
