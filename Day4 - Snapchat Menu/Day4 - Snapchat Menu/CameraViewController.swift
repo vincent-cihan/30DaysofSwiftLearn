@@ -57,16 +57,17 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
     }
 
     func didPreTakePhoto() {
-        if let videoConnection = stillImageOutput?.connection(withMediaType: AVMediaTypeVideo) {
+        if let videoConnection = stillImageOutput?.connection(withMediaType: AVMediaTypeVideo) {œ
             videoConnection.videoOrientation = AVCaptureVideoOrientation.portrait
             stillImageOutput?.captureStillImageAsynchronously(from: videoConnection, completionHandler: {
                 (sampleBuffer, error) in
                 if sampleBuffer != nil {
                     let imageData = AVCaptureStillImageOutput.jpegStillImageNSDataRepresentation(sampleBuffer)
-                    let dataProvider = CGDataProvider(data: imageData as! CFData)
+                    let dataProvider = CGDataProvider(data: imageData! as CFData)
                     let cgImageRef = CGImage(jpegDataProviderSource: dataProvider!, decode: nil, shouldInterpolate: true, intent: CGColorRenderingIntent.defaultIntent)
                     
                     let image = UIImage(cgImage: cgImageRef!, scale: 1.0, orientation: UIImageOrientation.right)
+                    
                     
                     self.tempImageView.image = image
                     self.tempImageView.isHidden = false

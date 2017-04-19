@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Day5_CarouselEffect" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blue" translatesAutoresizingMaskIntoConstraints="NO" id="akA-5n-Ry8">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NAs-d1-n3A">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Vfu-9v-Iu4">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="yUI-ay-nHl">
+                                            <rect key="frame" x="0.0" y="50" width="375" height="547"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="20" minimumInteritemSpacing="10" id="daf-Aj-SmO">
+                                                <size key="itemSize" width="300" height="400"/>
+                                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                <inset key="sectionInset" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
+                                            </collectionViewFlowLayout>
+                                            <cells>
+                                                <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="InterestCell" id="m0s-Sd-ym4" customClass="InterestCollectionViewCell" customModule="Day5_CarouselEffect" customModuleProvider="target">
+                                                    <rect key="frame" x="20" y="73.5" width="300" height="400"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                                        <rect key="frame" x="0.0" y="0.0" width="300" height="400"/>
+                                                        <autoresizingMask key="autoresizingMask"/>
+                                                        <subviews>
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bodyline" translatesAutoresizingMaskIntoConstraints="NO" id="hRu-be-06g">
+                                                                <rect key="frame" x="0.0" y="0.0" width="300" height="400"/>
+                                                            </imageView>
+                                                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fGY-QT-JfK">
+                                                                <rect key="frame" x="0.0" y="340" width="300" height="60"/>
+                                                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="YXA-px-Ly4">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="300" height="60"/>
+                                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                                    <subviews>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I love your new hair style." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Oc-f1-FTi">
+                                                                            <rect key="frame" x="13" y="21" width="274" height="19.5"/>
+                                                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                                            <nil key="textColor"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                    </subviews>
+                                                                    <constraints>
+                                                                        <constraint firstItem="6Oc-f1-FTi" firstAttribute="leading" secondItem="YXA-px-Ly4" secondAttribute="leading" constant="13" id="Oq7-Xm-l53"/>
+                                                                        <constraint firstAttribute="trailing" secondItem="6Oc-f1-FTi" secondAttribute="trailing" constant="13" id="c8c-Tn-Lth"/>
+                                                                        <constraint firstItem="6Oc-f1-FTi" firstAttribute="centerY" secondItem="YXA-px-Ly4" secondAttribute="centerY" id="yAV-kk-fBL"/>
+                                                                    </constraints>
+                                                                </view>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="60" id="3mF-4f-01g"/>
+                                                                </constraints>
+                                                                <blurEffect style="light"/>
+                                                            </visualEffectView>
+                                                        </subviews>
+                                                    </view>
+                                                    <constraints>
+                                                        <constraint firstAttribute="trailing" secondItem="fGY-QT-JfK" secondAttribute="trailing" id="79C-hg-IuO"/>
+                                                        <constraint firstAttribute="bottom" secondItem="hRu-be-06g" secondAttribute="bottom" id="RvW-ez-e5V"/>
+                                                        <constraint firstAttribute="trailing" secondItem="hRu-be-06g" secondAttribute="trailing" id="aAR-vb-bqH"/>
+                                                        <constraint firstAttribute="bottom" secondItem="fGY-QT-JfK" secondAttribute="bottom" id="hv9-MS-ISu"/>
+                                                        <constraint firstItem="fGY-QT-JfK" firstAttribute="leading" secondItem="m0s-Sd-ym4" secondAttribute="leading" id="jT9-ie-20w"/>
+                                                        <constraint firstItem="hRu-be-06g" firstAttribute="top" secondItem="m0s-Sd-ym4" secondAttribute="top" id="xJx-58-8vG"/>
+                                                        <constraint firstItem="hRu-be-06g" firstAttribute="leading" secondItem="m0s-Sd-ym4" secondAttribute="leading" id="xfo-N4-Hl1"/>
+                                                    </constraints>
+                                                    <connections>
+                                                        <outlet property="featuredImageView" destination="hRu-be-06g" id="eL4-PI-fc9"/>
+                                                        <outlet property="interestTitleLabel" destination="6Oc-f1-FTi" id="2Da-cF-KCL"/>
+                                                    </connections>
+                                                </collectionViewCell>
+                                            </cells>
+                                            <connections>
+                                                <outlet property="dataSource" destination="BYZ-38-t0r" id="fO6-9L-qPC"/>
+                                                <outlet property="delegate" destination="BYZ-38-t0r" id="336-iZ-6R0"/>
+                                            </connections>
+                                        </collectionView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="yUI-ay-nHl" firstAttribute="top" secondItem="Vfu-9v-Iu4" secondAttribute="top" constant="50" id="DQK-vW-K3N"/>
+                                        <constraint firstAttribute="bottom" secondItem="yUI-ay-nHl" secondAttribute="bottom" constant="50" id="N6q-OL-tgU"/>
+                                        <constraint firstAttribute="trailing" secondItem="yUI-ay-nHl" secondAttribute="trailing" id="QMc-1V-NCp"/>
+                                        <constraint firstItem="yUI-ay-nHl" firstAttribute="leading" secondItem="Vfu-9v-Iu4" secondAttribute="leading" id="SdR-hf-RCB"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="NAs-d1-n3A" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="1DD-vZ-q6P"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="akA-5n-Ry8" secondAttribute="bottom" id="E9O-Z2-SXq"/>
+                            <constraint firstAttribute="trailing" secondItem="akA-5n-Ry8" secondAttribute="trailing" id="IyF-um-GdA"/>
+                            <constraint firstItem="akA-5n-Ry8" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="N2L-kO-CY6"/>
+                            <constraint firstItem="NAs-d1-n3A" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="g3K-6r-Gll"/>
+                            <constraint firstAttribute="trailing" secondItem="NAs-d1-n3A" secondAttribute="trailing" id="k87-6F-zl8"/>
+                            <constraint firstItem="akA-5n-Ry8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="oUk-34-VdS"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="NAs-d1-n3A" secondAttribute="bottom" id="okh-Fo-emF"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="351" y="-14"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="blue" width="375" height="667"/>
+        <image name="bodyline" width="596" height="595"/>
+    </resources>
+</document>
