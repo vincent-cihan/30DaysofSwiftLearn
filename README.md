@@ -25,3 +25,7 @@ Day6 - Where
 Day7 - PullToRefresh
 
 ![PullToRefresh](https://github.com/vincent-cihan/30DaysofSwiftLearn/blob/master/Day7%20-%20PullToRefresh/PullToRefresh.gif)
+
+Day8 - RandomColor
+
+![RandomColor](https://github.com/vincent-cihan/30DaysofSwiftLearn/blob/master/Day8%20-%20RandomColorization/WechatEye.gif)
