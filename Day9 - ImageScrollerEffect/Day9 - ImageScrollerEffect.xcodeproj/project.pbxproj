@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8FB59D81EB02E4500B878B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FB59D71EB02E4500B878B9 /* AppDelegate.swift */; };
+		A8FB59DA1EB02E4500B878B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FB59D91EB02E4500B878B9 /* ViewController.swift */; };
+		A8FB59DD1EB02E4500B878B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8FB59DB1EB02E4500B878B9 /* Main.storyboard */; };
+		A8FB59DF1EB02E4500B878B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8FB59DE1EB02E4500B878B9 /* Assets.xcassets */; };
+		A8FB59E21EB02E4500B878B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8FB59E01EB02E4500B878B9 /* LaunchScreen.storyboard */; };
+		A8FB59ED1EB02E4500B878B9 /* Day9___ImageScrollerEffectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FB59EC1EB02E4500B878B9 /* Day9___ImageScrollerEffectTests.swift */; };
+		A8FB59F81EB02E4500B878B9 /* Day9___ImageScrollerEffectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FB59F71EB02E4500B878B9 /* Day9___ImageScrollerEffectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8FB59E91EB02E4500B878B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8FB59CC1EB02E4400B878B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8FB59D31EB02E4500B878B9;
+			remoteInfo = "Day9 - ImageScrollerEffect";
+		};
+		A8FB59F41EB02E4500B878B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8FB59CC1EB02E4400B878B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8FB59D31EB02E4500B878B9;
+			remoteInfo = "Day9 - ImageScrollerEffect";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A8FB59D41EB02E4500B878B9 /* Day9 - ImageScrollerEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day9 - ImageScrollerEffect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8FB59D71EB02E4500B878B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8FB59D91EB02E4500B878B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A8FB59DC1EB02E4500B878B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8FB59DE1EB02E4500B878B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8FB59E11EB02E4500B878B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8FB59E31EB02E4500B878B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8FB59E81EB02E4500B878B9 /* Day9 - ImageScrollerEffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Day9 - ImageScrollerEffectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8FB59EC1EB02E4500B878B9 /* Day9___ImageScrollerEffectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day9___ImageScrollerEffectTests.swift"; sourceTree = "<group>"; };
+		A8FB59EE1EB02E4500B878B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8FB59F31EB02E4500B878B9 /* Day9 - ImageScrollerEffectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Day9 - ImageScrollerEffectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8FB59F71EB02E4500B878B9 /* Day9___ImageScrollerEffectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day9___ImageScrollerEffectUITests.swift"; sourceTree = "<group>"; };
+		A8FB59F91EB02E4500B878B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8FB59D11EB02E4500B878B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8FB59E51EB02E4500B878B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8FB59F01EB02E4500B878B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8FB59CB1EB02E4400B878B9 = {
+			isa = PBXGroup;
+			children = (
+				A8FB59D61EB02E4500B878B9 /* Day9 - ImageScrollerEffect */,
+				A8FB59EB1EB02E4500B878B9 /* Day9 - ImageScrollerEffectTests */,
+				A8FB59F61EB02E4500B878B9 /* Day9 - ImageScrollerEffectUITests */,
+				A8FB59D51EB02E4500B878B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8FB59D51EB02E4500B878B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8FB59D41EB02E4500B878B9 /* Day9 - ImageScrollerEffect.app */,
+				A8FB59E81EB02E4500B878B9 /* Day9 - ImageScrollerEffectTests.xctest */,
+				A8FB59F31EB02E4500B878B9 /* Day9 - ImageScrollerEffectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8FB59D61EB02E4500B878B9 /* Day9 - ImageScrollerEffect */ = {
+			isa = PBXGroup;
+			children = (
+				A8FB59D71EB02E4500B878B9 /* AppDelegate.swift */,
+				A8FB59D91EB02E4500B878B9 /* ViewController.swift */,
+				A8FB59DB1EB02E4500B878B9 /* Main.storyboard */,
+				A8FB59DE1EB02E4500B878B9 /* Assets.xcassets */,
+				A8FB59E01EB02E4500B878B9 /* LaunchScreen.storyboard */,
+				A8FB59E31EB02E4500B878B9 /* Info.plist */,
+			);
+			path = "Day9 - ImageScrollerEffect";
+			sourceTree = "<group>";
+		};
+		A8FB59EB1EB02E4500B878B9 /* Day9 - ImageScrollerEffectTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8FB59EC1EB02E4500B878B9 /* Day9___ImageScrollerEffectTests.swift */,
+				A8FB59EE1EB02E4500B878B9 /* Info.plist */,
+			);
+			path = "Day9 - ImageScrollerEffectTests";
+			sourceTree = "<group>";
+		};
+		A8FB59F61EB02E4500B878B9 /* Day9 - ImageScrollerEffectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A8FB59F71EB02E4500B878B9 /* Day9___ImageScrollerEffectUITests.swift */,
+				A8FB59F91EB02E4500B878B9 /* Info.plist */,
+			);
+			path = "Day9 - ImageScrollerEffectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8FB59D31EB02E4500B878B9 /* Day9 - ImageScrollerEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8FB59FC1EB02E4500B878B9 /* Build configuration list for PBXNativeTarget "Day9 - ImageScrollerEffect" */;
+			buildPhases = (
+				A8FB59D01EB02E4500B878B9 /* Sources */,
+				A8FB59D11EB02E4500B878B9 /* Frameworks */,
+				A8FB59D21EB02E4500B878B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Day9 - ImageScrollerEffect";
+			productName = "Day9 - ImageScrollerEffect";
+			productReference = A8FB59D41EB02E4500B878B9 /* Day9 - ImageScrollerEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8FB59E71EB02E4500B878B9 /* Day9 - ImageScrollerEffectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8FB59FF1EB02E4500B878B9 /* Build configuration list for PBXNativeTarget "Day9 - ImageScrollerEffectTests" */;
+			buildPhases = (
+				A8FB59E41EB02E4500B878B9 /* Sources */,
+				A8FB59E51EB02E4500B878B9 /* Frameworks */,
+				A8FB59E61EB02E4500B878B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8FB59EA1EB02E4500B878B9 /* PBXTargetDependency */,
+			);
+			name = "Day9 - ImageScrollerEffectTests";
+			productName = "Day9 - ImageScrollerEffectTests";
+			productReference = A8FB59E81EB02E4500B878B9 /* Day9 - ImageScrollerEffectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A8FB59F21EB02E4500B878B9 /* Day9 - ImageScrollerEffectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8FB5A021EB02E4500B878B9 /* Build configuration list for PBXNativeTarget "Day9 - ImageScrollerEffectUITests" */;
+			buildPhases = (
+				A8FB59EF1EB02E4500B878B9 /* Sources */,
+				A8FB59F01EB02E4500B878B9 /* Frameworks */,
+				A8FB59F11EB02E4500B878B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8FB59F51EB02E4500B878B9 /* PBXTargetDependency */,
+			);
+			name = "Day9 - ImageScrollerEffectUITests";
+			productName = "Day9 - ImageScrollerEffectUITests";
+			productReference = A8FB59F31EB02E4500B878B9 /* Day9 - ImageScrollerEffectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8FB59CC1EB02E4400B878B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "刘乙灏";
+				TargetAttributes = {
+					A8FB59D31EB02E4500B878B9 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					A8FB59E71EB02E4500B878B9 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A8FB59D31EB02E4500B878B9;
+					};
+					A8FB59F21EB02E4500B878B9 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A8FB59D31EB02E4500B878B9;
+					};
+				};
+			};
+			buildConfigurationList = A8FB59CF1EB02E4400B878B9 /* Build configuration list for PBXProject "Day9 - ImageScrollerEffect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8FB59CB1EB02E4400B878B9;
+			productRefGroup = A8FB59D51EB02E4500B878B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8FB59D31EB02E4500B878B9 /* Day9 - ImageScrollerEffect */,
+				A8FB59E71EB02E4500B878B9 /* Day9 - ImageScrollerEffectTests */,
+				A8FB59F21EB02E4500B878B9 /* Day9 - ImageScrollerEffectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8FB59D21EB02E4500B878B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8FB59E21EB02E4500B878B9 /* LaunchScreen.storyboard in Resources */,
+				A8FB59DF1EB02E4500B878B9 /* Assets.xcassets in Resources */,
+				A8FB59DD1EB02E4500B878B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8FB59E61EB02E4500B878B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8FB59F11EB02E4500B878B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8FB59D01EB02E4500B878B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8FB59DA1EB02E4500B878B9 /* ViewController.swift in Sources */,
+				A8FB59D81EB02E4500B878B9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8FB59E41EB02E4500B878B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8FB59ED1EB02E4500B878B9 /* Day9___ImageScrollerEffectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8FB59EF1EB02E4500B878B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8FB59F81EB02E4500B878B9 /* Day9___ImageScrollerEffectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8FB59EA1EB02E4500B878B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8FB59D31EB02E4500B878B9 /* Day9 - ImageScrollerEffect */;
+			targetProxy = A8FB59E91EB02E4500B878B9 /* PBXContainerItemProxy */;
+		};
+		A8FB59F51EB02E4500B878B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8FB59D31EB02E4500B878B9 /* Day9 - ImageScrollerEffect */;
+			targetProxy = A8FB59F41EB02E4500B878B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8FB59DB1EB02E4500B878B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8FB59DC1EB02E4500B878B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8FB59E01EB02E4500B878B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8FB59E11EB02E4500B878B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8FB59FA1EB02E4500B878B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8FB59FB1EB02E4500B878B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8FB59FD1EB02E4500B878B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Day9 - ImageScrollerEffect/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lyh.Day9---ImageScrollerEffect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A8FB59FE1EB02E4500B878B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Day9 - ImageScrollerEffect/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lyh.Day9---ImageScrollerEffect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A8FB5A001EB02E4500B878B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Day9 - ImageScrollerEffectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lyh.Day9---ImageScrollerEffectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day9 - ImageScrollerEffect.app/Day9 - ImageScrollerEffect";
+			};
+			name = Debug;
+		};
+		A8FB5A011EB02E4500B878B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Day9 - ImageScrollerEffectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lyh.Day9---ImageScrollerEffectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day9 - ImageScrollerEffect.app/Day9 - ImageScrollerEffect";
+			};
+			name = Release;
+		};
+		A8FB5A031EB02E4500B878B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Day9 - ImageScrollerEffectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lyh.Day9---ImageScrollerEffectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Day9 - ImageScrollerEffect";
+			};
+			name = Debug;
+		};
+		A8FB5A041EB02E4500B878B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Day9 - ImageScrollerEffectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lyh.Day9---ImageScrollerEffectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Day9 - ImageScrollerEffect";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8FB59CF1EB02E4400B878B9 /* Build configuration list for PBXProject "Day9 - ImageScrollerEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8FB59FA1EB02E4500B878B9 /* Debug */,
+				A8FB59FB1EB02E4500B878B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8FB59FC1EB02E4500B878B9 /* Build configuration list for PBXNativeTarget "Day9 - ImageScrollerEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8FB59FD1EB02E4500B878B9 /* Debug */,
+				A8FB59FE1EB02E4500B878B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A8FB59FF1EB02E4500B878B9 /* Build configuration list for PBXNativeTarget "Day9 - ImageScrollerEffectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8FB5A001EB02E4500B878B9 /* Debug */,
+				A8FB5A011EB02E4500B878B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A8FB5A021EB02E4500B878B9 /* Build configuration list for PBXNativeTarget "Day9 - ImageScrollerEffectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8FB5A031EB02E4500B878B9 /* Debug */,
+				A8FB5A041EB02E4500B878B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8FB59CC1EB02E4400B878B9 /* Project object */;
+}
