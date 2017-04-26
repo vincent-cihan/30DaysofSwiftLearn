@@ -29,3 +29,7 @@ Day7 - PullToRefresh
 Day8 - RandomColor
 
 ![RandomColor](https://github.com/vincent-cihan/30DaysofSwiftLearn/blob/master/Day8%20-%20RandomColorization/WechatEye.gif)
+
+Day9 - ImageScrollerEffect
+
+![ImageScrollerEffect](https://github.com/vincent-cihan/30DaysofSwiftLearn/blob/master/Day9%20-%20ImageScrollerEffect/ImageScrollerEffect.gif)
