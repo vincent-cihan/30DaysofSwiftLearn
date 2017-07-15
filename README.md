@@ -33,3 +33,7 @@ Day8 - RandomColor
 Day9 - ImageScrollerEffect
 
 ![ImageScrollerEffect](https://github.com/vincent-cihan/30DaysofSwiftLearn/blob/master/Day9%20-%20ImageScrollerEffect/ImageScrollerEffect.gif)
+
+Day11 - ClearTableViewCell
+
+![ClearTableViewCell.gif](https://github.com/vincent-cihan/30DaysofSwiftLearn/blob/master/Day11-ClearTableViewCell/ClearTableViewCell.gif)
