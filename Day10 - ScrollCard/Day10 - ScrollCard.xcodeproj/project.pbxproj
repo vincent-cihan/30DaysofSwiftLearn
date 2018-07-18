@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EAFCE9520FEDD34006E49D0 /* CustomLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAFCE9420FEDD34006E49D0 /* CustomLayout.swift */; };
+		4EAFCE9720FEDD4A006E49D0 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAFCE9620FEDD4A006E49D0 /* CustomCollectionViewCell.swift */; };
+		4EE3559720FDC30600D1E092 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE3559620FDC30600D1E092 /* AppDelegate.swift */; };
+		4EE3559920FDC30600D1E092 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE3559820FDC30600D1E092 /* ViewController.swift */; };
+		4EE3559E20FDC30600D1E092 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EE3559D20FDC30600D1E092 /* Assets.xcassets */; };
+		4EE355A120FDC30600D1E092 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EE3559F20FDC30600D1E092 /* LaunchScreen.storyboard */; };
+		4EE355AC20FDC30600D1E092 /* Day10___ScrollCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE355AB20FDC30600D1E092 /* Day10___ScrollCardTests.swift */; };
+		4EE355B720FDC30600D1E092 /* Day10___ScrollCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE355B620FDC30600D1E092 /* Day10___ScrollCardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EE355A820FDC30600D1E092 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EE3558B20FDC30600D1E092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EE3559220FDC30600D1E092;
+			remoteInfo = "Day10 - ScrollCard";
+		};
+		4EE355B320FDC30600D1E092 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EE3558B20FDC30600D1E092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EE3559220FDC30600D1E092;
+			remoteInfo = "Day10 - ScrollCard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4EAFCE9420FEDD34006E49D0 /* CustomLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLayout.swift; sourceTree = "<group>"; };
+		4EAFCE9620FEDD4A006E49D0 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		4EE3559320FDC30600D1E092 /* Day10 - ScrollCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day10 - ScrollCard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE3559620FDC30600D1E092 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4EE3559820FDC30600D1E092 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4EE3559D20FDC30600D1E092 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EE355A020FDC30600D1E092 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4EE355A220FDC30600D1E092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EE355A720FDC30600D1E092 /* Day10 - ScrollCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Day10 - ScrollCardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE355AB20FDC30600D1E092 /* Day10___ScrollCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day10___ScrollCardTests.swift"; sourceTree = "<group>"; };
+		4EE355AD20FDC30600D1E092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EE355B220FDC30600D1E092 /* Day10 - ScrollCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Day10 - ScrollCardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE355B620FDC30600D1E092 /* Day10___ScrollCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day10___ScrollCardUITests.swift"; sourceTree = "<group>"; };
+		4EE355B820FDC30600D1E092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EE3559020FDC30600D1E092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE355A420FDC30600D1E092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE355AF20FDC30600D1E092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EE3558A20FDC30600D1E092 = {
+			isa = PBXGroup;
+			children = (
+				4EE3559520FDC30600D1E092 /* Day10 - ScrollCard */,
+				4EE355AA20FDC30600D1E092 /* Day10 - ScrollCardTests */,
+				4EE355B520FDC30600D1E092 /* Day10 - ScrollCardUITests */,
+				4EE3559420FDC30600D1E092 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EE3559420FDC30600D1E092 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EE3559320FDC30600D1E092 /* Day10 - ScrollCard.app */,
+				4EE355A720FDC30600D1E092 /* Day10 - ScrollCardTests.xctest */,
+				4EE355B220FDC30600D1E092 /* Day10 - ScrollCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EE3559520FDC30600D1E092 /* Day10 - ScrollCard */ = {
+			isa = PBXGroup;
+			children = (
+				4EE3559620FDC30600D1E092 /* AppDelegate.swift */,
+				4EE3559820FDC30600D1E092 /* ViewController.swift */,
+				4EAFCE9420FEDD34006E49D0 /* CustomLayout.swift */,
+				4EAFCE9620FEDD4A006E49D0 /* CustomCollectionViewCell.swift */,
+				4EE3559D20FDC30600D1E092 /* Assets.xcassets */,
+				4EE3559F20FDC30600D1E092 /* LaunchScreen.storyboard */,
+				4EE355A220FDC30600D1E092 /* Info.plist */,
+			);
+			path = "Day10 - ScrollCard";
+			sourceTree = "<group>";
+		};
+		4EE355AA20FDC30600D1E092 /* Day10 - ScrollCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EE355AB20FDC30600D1E092 /* Day10___ScrollCardTests.swift */,
+				4EE355AD20FDC30600D1E092 /* Info.plist */,
+			);
+			path = "Day10 - ScrollCardTests";
+			sourceTree = "<group>";
+		};
+		4EE355B520FDC30600D1E092 /* Day10 - ScrollCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4EE355B620FDC30600D1E092 /* Day10___ScrollCardUITests.swift */,
+				4EE355B820FDC30600D1E092 /* Info.plist */,
+			);
+			path = "Day10 - ScrollCardUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EE3559220FDC30600D1E092 /* Day10 - ScrollCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EE355BB20FDC30600D1E092 /* Build configuration list for PBXNativeTarget "Day10 - ScrollCard" */;
+			buildPhases = (
+				4EE3558F20FDC30600D1E092 /* Sources */,
+				4EE3559020FDC30600D1E092 /* Frameworks */,
+				4EE3559120FDC30600D1E092 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Day10 - ScrollCard";
+			productName = "Day10 - ScrollCard";
+			productReference = 4EE3559320FDC30600D1E092 /* Day10 - ScrollCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EE355A620FDC30600D1E092 /* Day10 - ScrollCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EE355BE20FDC30600D1E092 /* Build configuration list for PBXNativeTarget "Day10 - ScrollCardTests" */;
+			buildPhases = (
+				4EE355A320FDC30600D1E092 /* Sources */,
+				4EE355A420FDC30600D1E092 /* Frameworks */,
+				4EE355A520FDC30600D1E092 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EE355A920FDC30600D1E092 /* PBXTargetDependency */,
+			);
+			name = "Day10 - ScrollCardTests";
+			productName = "Day10 - ScrollCardTests";
+			productReference = 4EE355A720FDC30600D1E092 /* Day10 - ScrollCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4EE355B120FDC30600D1E092 /* Day10 - ScrollCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EE355C120FDC30600D1E092 /* Build configuration list for PBXNativeTarget "Day10 - ScrollCardUITests" */;
+			buildPhases = (
+				4EE355AE20FDC30600D1E092 /* Sources */,
+				4EE355AF20FDC30600D1E092 /* Frameworks */,
+				4EE355B020FDC30600D1E092 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EE355B420FDC30600D1E092 /* PBXTargetDependency */,
+			);
+			name = "Day10 - ScrollCardUITests";
+			productName = "Day10 - ScrollCardUITests";
+			productReference = 4EE355B220FDC30600D1E092 /* Day10 - ScrollCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EE3558B20FDC30600D1E092 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "刘乙灏";
+				TargetAttributes = {
+					4EE3559220FDC30600D1E092 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					4EE355A620FDC30600D1E092 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 4EE3559220FDC30600D1E092;
+					};
+					4EE355B120FDC30600D1E092 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 4EE3559220FDC30600D1E092;
+					};
+				};
+			};
+			buildConfigurationList = 4EE3558E20FDC30600D1E092 /* Build configuration list for PBXProject "Day10 - ScrollCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EE3558A20FDC30600D1E092;
+			productRefGroup = 4EE3559420FDC30600D1E092 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EE3559220FDC30600D1E092 /* Day10 - ScrollCard */,
+				4EE355A620FDC30600D1E092 /* Day10 - ScrollCardTests */,
+				4EE355B120FDC30600D1E092 /* Day10 - ScrollCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EE3559120FDC30600D1E092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE355A120FDC30600D1E092 /* LaunchScreen.storyboard in Resources */,
+				4EE3559E20FDC30600D1E092 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE355A520FDC30600D1E092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE355B020FDC30600D1E092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EE3558F20FDC30600D1E092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EAFCE9520FEDD34006E49D0 /* CustomLayout.swift in Sources */,
+				4EE3559920FDC30600D1E092 /* ViewController.swift in Sources */,
+				4EE3559720FDC30600D1E092 /* AppDelegate.swift in Sources */,
+				4EAFCE9720FEDD4A006E49D0 /* CustomCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE355A320FDC30600D1E092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE355AC20FDC30600D1E092 /* Day10___ScrollCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE355AE20FDC30600D1E092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE355B720FDC30600D1E092 /* Day10___ScrollCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EE355A920FDC30600D1E092 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EE3559220FDC30600D1E092 /* Day10 - ScrollCard */;
+			targetProxy = 4EE355A820FDC30600D1E092 /* PBXContainerItemProxy */;
+		};
+		4EE355B420FDC30600D1E092 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EE3559220FDC30600D1E092 /* Day10 - ScrollCard */;
+			targetProxy = 4EE355B320FDC30600D1E092 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EE3559F20FDC30600D1E092 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EE355A020FDC30600D1E092 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EE355B920FDC30600D1E092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4EE355BA20FDC30600D1E092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EE355BC20FDC30600D1E092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4RPQ5P7YV;
+				INFOPLIST_FILE = "Day10 - ScrollCard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vincent.Day10---ScrollCard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EE355BD20FDC30600D1E092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4RPQ5P7YV;
+				INFOPLIST_FILE = "Day10 - ScrollCard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vincent.Day10---ScrollCard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4EE355BF20FDC30600D1E092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4RPQ5P7YV;
+				INFOPLIST_FILE = "Day10 - ScrollCardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vincent.Day10---ScrollCardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day10 - ScrollCard.app/Day10 - ScrollCard";
+			};
+			name = Debug;
+		};
+		4EE355C020FDC30600D1E092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4RPQ5P7YV;
+				INFOPLIST_FILE = "Day10 - ScrollCardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vincent.Day10---ScrollCardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day10 - ScrollCard.app/Day10 - ScrollCard";
+			};
+			name = Release;
+		};
+		4EE355C220FDC30600D1E092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4RPQ5P7YV;
+				INFOPLIST_FILE = "Day10 - ScrollCardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vincent.Day10---ScrollCardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Day10 - ScrollCard";
+			};
+			name = Debug;
+		};
+		4EE355C320FDC30600D1E092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4RPQ5P7YV;
+				INFOPLIST_FILE = "Day10 - ScrollCardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vincent.Day10---ScrollCardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Day10 - ScrollCard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EE3558E20FDC30600D1E092 /* Build configuration list for PBXProject "Day10 - ScrollCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE355B920FDC30600D1E092 /* Debug */,
+				4EE355BA20FDC30600D1E092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EE355BB20FDC30600D1E092 /* Build configuration list for PBXNativeTarget "Day10 - ScrollCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE355BC20FDC30600D1E092 /* Debug */,
+				4EE355BD20FDC30600D1E092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EE355BE20FDC30600D1E092 /* Build configuration list for PBXNativeTarget "Day10 - ScrollCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE355BF20FDC30600D1E092 /* Debug */,
+				4EE355C020FDC30600D1E092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EE355C120FDC30600D1E092 /* Build configuration list for PBXNativeTarget "Day10 - ScrollCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE355C220FDC30600D1E092 /* Debug */,
+				4EE355C320FDC30600D1E092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EE3558B20FDC30600D1E092 /* Project object */;
+}
