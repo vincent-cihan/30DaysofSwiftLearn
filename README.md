@@ -1,6 +1,7 @@
 # 30DaysofSwiftLearn
 
-学习地址：http://www.jianshu.com/p/52032bc4cbe4
+学习地址1：http://www.jianshu.com/p/52032bc4cbe4
+学习地址2：https://github.com/imzyf/99-projects-of-swift
 
 Day1 - StopWatch
 
@@ -33,6 +34,10 @@ Day8 - RandomColor
 Day9 - ImageScrollerEffect
 
 ![ImageScrollerEffect](https://github.com/vincent-cihan/30DaysofSwiftLearn/blob/master/Day9%20-%20ImageScrollerEffect/ImageScrollerEffect.gif)
+
+Day10 - ScrollCard
+
+![ScrollCard](https://github.com/vincent-cihan/30DaysofSwiftLearn/blob/master/Day10%20-%20ScrollCard/ScrollCard.gif)
 
 Day11 - ClearTableViewCell
 
