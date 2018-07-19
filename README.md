@@ -49,4 +49,4 @@ Day12 - LimitedInput
 
 Day13 - StretchyHeader
 
-![StretchyHeader.gif](https://github.com/vincent-cihan/30DaysofSwiftLearn/blob/master/StretchyHeader.gif)
+![StretchyHeader.gif](https://github.com/vincent-cihan/30DaysofSwiftLearn/blob/master/Day13%20-%20StretchyHeader/StretchyHeader.gif)
