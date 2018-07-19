@@ -46,3 +46,7 @@ Day11 - ClearTableViewCell
 Day12 - LimitedInput
 
 ![LimitedInput.gif](https://github.com/vincent-cihan/30DaysofSwiftLearn/blob/master/Day12%20-%20Limited%20Input%20Text%20Field/Limited%20Input%20TextView.gif)
+
+Day13 - StretchyHeader
+
+![StretchyHeader.gif](https://github.com/vincent-cihan/30DaysofSwiftLearn/blob/master/StretchyHeader.gif)
