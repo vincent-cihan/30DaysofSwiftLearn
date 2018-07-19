@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EAFCF3220FF13C8006E49D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAFCF3120FF13C8006E49D0 /* AppDelegate.swift */; };
+		4EAFCF3420FF13C8006E49D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAFCF3320FF13C8006E49D0 /* ViewController.swift */; };
+		4EAFCF3720FF13C8006E49D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EAFCF3520FF13C8006E49D0 /* Main.storyboard */; };
+		4EAFCF3920FF13C9006E49D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EAFCF3820FF13C9006E49D0 /* Assets.xcassets */; };
+		4EAFCF3C20FF13C9006E49D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EAFCF3A20FF13C9006E49D0 /* LaunchScreen.storyboard */; };
+		4EAFCF4720FF13C9006E49D0 /* Day12___Limited_Input_Text_FieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAFCF4620FF13C9006E49D0 /* Day12___Limited_Input_Text_FieldTests.swift */; };
+		4EAFCF5220FF13CA006E49D0 /* Day12___Limited_Input_Text_FieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAFCF5120FF13CA006E49D0 /* Day12___Limited_Input_Text_FieldUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EAFCF4320FF13C9006E49D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EAFCF2620FF13C8006E49D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EAFCF2D20FF13C8006E49D0;
+			remoteInfo = "Day12 - Limited Input Text Field";
+		};
+		4EAFCF4E20FF13CA006E49D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EAFCF2620FF13C8006E49D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EAFCF2D20FF13C8006E49D0;
+			remoteInfo = "Day12 - Limited Input Text Field";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4EAFCF2E20FF13C8006E49D0 /* Day12 - Limited Input Text Field.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day12 - Limited Input Text Field.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EAFCF3120FF13C8006E49D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4EAFCF3320FF13C8006E49D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4EAFCF3620FF13C8006E49D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EAFCF3820FF13C9006E49D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EAFCF3B20FF13C9006E49D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4EAFCF3D20FF13C9006E49D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EAFCF4220FF13C9006E49D0 /* Day12 - Limited Input Text FieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Day12 - Limited Input Text FieldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EAFCF4620FF13C9006E49D0 /* Day12___Limited_Input_Text_FieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day12___Limited_Input_Text_FieldTests.swift"; sourceTree = "<group>"; };
+		4EAFCF4820FF13C9006E49D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EAFCF4D20FF13CA006E49D0 /* Day12 - Limited Input Text FieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Day12 - Limited Input Text FieldUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EAFCF5120FF13CA006E49D0 /* Day12___Limited_Input_Text_FieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day12___Limited_Input_Text_FieldUITests.swift"; sourceTree = "<group>"; };
+		4EAFCF5320FF13CA006E49D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EAFCF2B20FF13C8006E49D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EAFCF3F20FF13C9006E49D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EAFCF4A20FF13CA006E49D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EAFCF2520FF13C8006E49D0 = {
+			isa = PBXGroup;
+			children = (
+				4EAFCF3020FF13C8006E49D0 /* Day12 - Limited Input Text Field */,
+				4EAFCF4520FF13C9006E49D0 /* Day12 - Limited Input Text FieldTests */,
+				4EAFCF5020FF13CA006E49D0 /* Day12 - Limited Input Text FieldUITests */,
+				4EAFCF2F20FF13C8006E49D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EAFCF2F20FF13C8006E49D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EAFCF2E20FF13C8006E49D0 /* Day12 - Limited Input Text Field.app */,
+				4EAFCF4220FF13C9006E49D0 /* Day12 - Limited Input Text FieldTests.xctest */,
+				4EAFCF4D20FF13CA006E49D0 /* Day12 - Limited Input Text FieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EAFCF3020FF13C8006E49D0 /* Day12 - Limited Input Text Field */ = {
+			isa = PBXGroup;
+			children = (
+				4EAFCF3120FF13C8006E49D0 /* AppDelegate.swift */,
+				4EAFCF3320FF13C8006E49D0 /* ViewController.swift */,
+				4EAFCF3520FF13C8006E49D0 /* Main.storyboard */,
+				4EAFCF3820FF13C9006E49D0 /* Assets.xcassets */,
+				4EAFCF3A20FF13C9006E49D0 /* LaunchScreen.storyboard */,
+				4EAFCF3D20FF13C9006E49D0 /* Info.plist */,
+			);
+			path = "Day12 - Limited Input Text Field";
+			sourceTree = "<group>";
+		};
+		4EAFCF4520FF13C9006E49D0 /* Day12 - Limited Input Text FieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EAFCF4620FF13C9006E49D0 /* Day12___Limited_Input_Text_FieldTests.swift */,
+				4EAFCF4820FF13C9006E49D0 /* Info.plist */,
+			);
+			path = "Day12 - Limited Input Text FieldTests";
+			sourceTree = "<group>";
+		};
+		4EAFCF5020FF13CA006E49D0 /* Day12 - Limited Input Text FieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4EAFCF5120FF13CA006E49D0 /* Day12___Limited_Input_Text_FieldUITests.swift */,
+				4EAFCF5320FF13CA006E49D0 /* Info.plist */,
+			);
+			path = "Day12 - Limited Input Text FieldUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EAFCF2D20FF13C8006E49D0 /* Day12 - Limited Input Text Field */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EAFCF5620FF13CA006E49D0 /* Build configuration list for PBXNativeTarget "Day12 - Limited Input Text Field" */;
+			buildPhases = (
+				4EAFCF2A20FF13C8006E49D0 /* Sources */,
+				4EAFCF2B20FF13C8006E49D0 /* Frameworks */,
+				4EAFCF2C20FF13C8006E49D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Day12 - Limited Input Text Field";
+			productName = "Day12 - Limited Input Text Field";
+			productReference = 4EAFCF2E20FF13C8006E49D0 /* Day12 - Limited Input Text Field.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EAFCF4120FF13C9006E49D0 /* Day12 - Limited Input Text FieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EAFCF5920FF13CA006E49D0 /* Build configuration list for PBXNativeTarget "Day12 - Limited Input Text FieldTests" */;
+			buildPhases = (
+				4EAFCF3E20FF13C9006E49D0 /* Sources */,
+				4EAFCF3F20FF13C9006E49D0 /* Frameworks */,
+				4EAFCF4020FF13C9006E49D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EAFCF4420FF13C9006E49D0 /* PBXTargetDependency */,
+			);
+			name = "Day12 - Limited Input Text FieldTests";
+			productName = "Day12 - Limited Input Text FieldTests";
+			productReference = 4EAFCF4220FF13C9006E49D0 /* Day12 - Limited Input Text FieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4EAFCF4C20FF13CA006E49D0 /* Day12 - Limited Input Text FieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EAFCF5C20FF13CA006E49D0 /* Build configuration list for PBXNativeTarget "Day12 - Limited Input Text FieldUITests" */;
+			buildPhases = (
+				4EAFCF4920FF13CA006E49D0 /* Sources */,
+				4EAFCF4A20FF13CA006E49D0 /* Frameworks */,
+				4EAFCF4B20FF13CA006E49D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EAFCF4F20FF13CA006E49D0 /* PBXTargetDependency */,
+			);
+			name = "Day12 - Limited Input Text FieldUITests";
+			productName = "Day12 - Limited Input Text FieldUITests";
+			productReference = 4EAFCF4D20FF13CA006E49D0 /* Day12 - Limited Input Text FieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EAFCF2620FF13C8006E49D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "刘乙灏";
+				TargetAttributes = {
+					4EAFCF2D20FF13C8006E49D0 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					4EAFCF4120FF13C9006E49D0 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 4EAFCF2D20FF13C8006E49D0;
+					};
+					4EAFCF4C20FF13CA006E49D0 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 4EAFCF2D20FF13C8006E49D0;
+					};
+				};
+			};
+			buildConfigurationList = 4EAFCF2920FF13C8006E49D0 /* Build configuration list for PBXProject "Day12 - Limited Input Text Field" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EAFCF2520FF13C8006E49D0;
+			productRefGroup = 4EAFCF2F20FF13C8006E49D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EAFCF2D20FF13C8006E49D0 /* Day12 - Limited Input Text Field */,
+				4EAFCF4120FF13C9006E49D0 /* Day12 - Limited Input Text FieldTests */,
+				4EAFCF4C20FF13CA006E49D0 /* Day12 - Limited Input Text FieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EAFCF2C20FF13C8006E49D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EAFCF3C20FF13C9006E49D0 /* LaunchScreen.storyboard in Resources */,
+				4EAFCF3920FF13C9006E49D0 /* Assets.xcassets in Resources */,
+				4EAFCF3720FF13C8006E49D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EAFCF4020FF13C9006E49D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EAFCF4B20FF13CA006E49D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EAFCF2A20FF13C8006E49D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EAFCF3420FF13C8006E49D0 /* ViewController.swift in Sources */,
+				4EAFCF3220FF13C8006E49D0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EAFCF3E20FF13C9006E49D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EAFCF4720FF13C9006E49D0 /* Day12___Limited_Input_Text_FieldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EAFCF4920FF13CA006E49D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EAFCF5220FF13CA006E49D0 /* Day12___Limited_Input_Text_FieldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EAFCF4420FF13C9006E49D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EAFCF2D20FF13C8006E49D0 /* Day12 - Limited Input Text Field */;
+			targetProxy = 4EAFCF4320FF13C9006E49D0 /* PBXContainerItemProxy */;
+		};
+		4EAFCF4F20FF13CA006E49D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EAFCF2D20FF13C8006E49D0 /* Day12 - Limited Input Text Field */;
+			targetProxy = 4EAFCF4E20FF13CA006E49D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EAFCF3520FF13C8006E49D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EAFCF3620FF13C8006E49D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4EAFCF3A20FF13C9006E49D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EAFCF3B20FF13C9006E49D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EAFCF5420FF13CA006E49D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4EAFCF5520FF13CA006E49D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EAFCF5720FF13CA006E49D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4RPQ5P7YV;
+				INFOPLIST_FILE = "Day12 - Limited Input Text Field/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vincent.Day12---Limited-Input-Text-Field";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EAFCF5820FF13CA006E49D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4RPQ5P7YV;
+				INFOPLIST_FILE = "Day12 - Limited Input Text Field/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vincent.Day12---Limited-Input-Text-Field";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4EAFCF5A20FF13CA006E49D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4RPQ5P7YV;
+				INFOPLIST_FILE = "Day12 - Limited Input Text FieldTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vincent.Day12---Limited-Input-Text-FieldTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day12 - Limited Input Text Field.app/Day12 - Limited Input Text Field";
+			};
+			name = Debug;
+		};
+		4EAFCF5B20FF13CA006E49D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4RPQ5P7YV;
+				INFOPLIST_FILE = "Day12 - Limited Input Text FieldTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vincent.Day12---Limited-Input-Text-FieldTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day12 - Limited Input Text Field.app/Day12 - Limited Input Text Field";
+			};
+			name = Release;
+		};
+		4EAFCF5D20FF13CA006E49D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4RPQ5P7YV;
+				INFOPLIST_FILE = "Day12 - Limited Input Text FieldUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vincent.Day12---Limited-Input-Text-FieldUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Day12 - Limited Input Text Field";
+			};
+			name = Debug;
+		};
+		4EAFCF5E20FF13CA006E49D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4RPQ5P7YV;
+				INFOPLIST_FILE = "Day12 - Limited Input Text FieldUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vincent.Day12---Limited-Input-Text-FieldUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Day12 - Limited Input Text Field";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EAFCF2920FF13C8006E49D0 /* Build configuration list for PBXProject "Day12 - Limited Input Text Field" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EAFCF5420FF13CA006E49D0 /* Debug */,
+				4EAFCF5520FF13CA006E49D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EAFCF5620FF13CA006E49D0 /* Build configuration list for PBXNativeTarget "Day12 - Limited Input Text Field" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EAFCF5720FF13CA006E49D0 /* Debug */,
+				4EAFCF5820FF13CA006E49D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EAFCF5920FF13CA006E49D0 /* Build configuration list for PBXNativeTarget "Day12 - Limited Input Text FieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EAFCF5A20FF13CA006E49D0 /* Debug */,
+				4EAFCF5B20FF13CA006E49D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EAFCF5C20FF13CA006E49D0 /* Build configuration list for PBXNativeTarget "Day12 - Limited Input Text FieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EAFCF5D20FF13CA006E49D0 /* Debug */,
+				4EAFCF5E20FF13CA006E49D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EAFCF2620FF13C8006E49D0 /* Project object */;
+}
