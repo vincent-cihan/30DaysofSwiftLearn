@@ -42,3 +42,7 @@ Day10 - ScrollCard
 Day11 - ClearTableViewCell
 
 ![ClearTableViewCell.gif](https://github.com/vincent-cihan/30DaysofSwiftLearn/blob/master/Day11-ClearTableViewCell/ClearTableViewCell.gif)
+
+Day12 - LimitedInput
+
+![LimitedInput.gif](https://github.com/vincent-cihan/30DaysofSwiftLearn/blob/master/Day12%20-%20Limited%20Input%20Text%20Field/Limited%20Input%20TextView.gif)
