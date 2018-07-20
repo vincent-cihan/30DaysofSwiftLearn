@@ -50,3 +50,7 @@ Day12 - LimitedInput
 Day13 - StretchyHeader
 
 ![StretchyHeader.gif](https://github.com/vincent-cihan/30DaysofSwiftLearn/blob/master/Day13%20-%20StretchyHeader/StretchyHeader.gif)
+
+Day14 - MoyaExample
+
+![MoyaExample.gif](https://github.com/vincent-cihan/30DaysofSwiftLearn/blob/master/Day14%20-%20MoyaExample/MoyaExample.gif)
