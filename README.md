@@ -54,3 +54,7 @@ Day13 - StretchyHeader
 Day14 - MoyaExample
 
 ![MoyaExample.gif](https://github.com/vincent-cihan/30DaysofSwiftLearn/blob/master/Day14%20-%20MoyaExample/MoyaExample.gif)
+
+Day16 - SizingTableViewAndCodable
+
+![SizingTableViewAndCodable.gif](https://github.com/vincent-cihan/30DaysofSwiftLearn/blob/master/Day15%20-%20SizingTableViewCell/SizingTableViewAndCodable.gif)
