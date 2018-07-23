@@ -55,6 +55,10 @@ Day14 - MoyaExample
 
 ![MoyaExample.gif](https://github.com/vincent-cihan/30DaysofSwiftLearn/blob/master/Day14%20-%20MoyaExample/MoyaExample.gif)
 
-Day16 - SizingTableViewAndCodable
+Day15 - SizingTableViewAndCodable
 
 ![SizingTableViewAndCodable.gif](https://github.com/vincent-cihan/30DaysofSwiftLearn/blob/master/Day15%20-%20SizingTableViewCell/SizingTableViewAndCodable.gif)
+
+Day16 - TwitterBird
+
+![TwitterBird.gif](https://github.com/vincent-cihan/30DaysofSwiftLearn/blob/master/Day15%20-%20TwitterBird/TwitterBird.gif)
