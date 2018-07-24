@@ -24,17 +24,12 @@ class ViewController: UIViewController {
         let collectionViewLayout = PinterestLayout()
         collectionViewLayout.delegate = self
         self.collectionView.collectionViewLayout = collectionViewLayout
-        
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-        
-        
     }
-    
-    
 }
 
 extension ViewController: UICollectionViewDelegateFlowLayout, UICollectionViewDataSource {
