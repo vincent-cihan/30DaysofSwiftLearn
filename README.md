@@ -62,3 +62,7 @@ Day15 - SizingTableViewAndCodable
 Day16 - TwitterBird
 
 ![TwitterBird.gif](https://github.com/vincent-cihan/30DaysofSwiftLearn/blob/master/Day15%20-%20TwitterBird/TwitterBird.gif)
+
+Day17 - Pinterest
+
+![Pinterest.gif](https://github.com/vincent-cihan/30DaysofSwiftLearn/blob/master/Day15%20-%20Pinterest/Pinterest.gif)
